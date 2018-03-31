@@ -6,16 +6,3 @@
 	border-radius: 15px;
 	float: left;
 }
-
-.block-box {
-	width: 30%;
-	margin: 0 auto;
-	overflow: hidden;
-}
-
-input {
-	width: 100%;
-	padding: .1rem;
-	outline: none;
-	background-color: orange;
-}
