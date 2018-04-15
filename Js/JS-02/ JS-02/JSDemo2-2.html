@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JSDemo2-2</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js">
+    <link rel="stylesheet" href="JSDemo2-2.css">
+</head>
+<body>
+    
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="row">
+            <div class="top">
+                <div class="back-arrow"><img class="img-responsive" src="images/14.png" alt=""></div>
+                <span>参数设置</span>
+                <div class="information"><a href="#"><img class="img-responsive" src="images/15.png" alt=""></a></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="main-top">
+            <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+                <div class="row">
+                    <div class="left">
+                        <span>玩<br>家<br>配<br>比</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="row">
+                            <div class="right-top">
+                                <span>杀手&nbsp;<span id="killer"></span>&nbsp;人</span>
+                                <span>平民&nbsp;<span id="people"></span>&nbsp;人</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <div class="row">
+                            <div class="right-bottom">
+                                <div><span>点击设置</span></div>
+                                <div class="pen"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="main-mid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="row">
+                        <input class="in" type="text" placeholder="水民词组">
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="row">
+                        <input class="in" type="text" placeholder="幽灵词组">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="main-bottom">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="bottom-top">
+                        <span>玩家人数</span>
+                        <input class="bottom-top-in" type="text" name="name" value="4" id="numberInput" onblur="getNumber()"> 
+                        <span>人</span>&nbsp;<span class="bottom-top-text">(玩家数量为4-18)</span>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="bottom-bottom">
+                        <button class="btn-sub" onclick="btnSub()"></button>
+                        <input type="range" id="numberRange" value="4" min="4" max="18" step="1" oninput="changeNumber()">
+                        <button class="btn-add" onclick="btnAdd()"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>   
+        
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div class="bottom"><span>去&nbsp;发&nbsp;牌</span></div>
+    </div>
+
+    <script src="js/jQuery.js"></script>
+    <script src="js/state-machine.js"></script>
+    <script src="js/JSDemo2-2.js"></script>
+</body>
+</html>

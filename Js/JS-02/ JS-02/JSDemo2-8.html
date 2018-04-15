@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JSDemo2-8</title>
+    <link rel="stylesheet" href="JSDemo2-8.css">
+</head>
+<body>
+    <div class="top">
+        <div class="home"></div>
+        <div class="topic">游戏结果</div>
+        <div class="information"></div>
+    </div>
+    <div class="main">
+        <div class="main-icon"></div>
+        <div class="main-icon-text"></div>
+        <div class="main-topic">剩余玩家</div>
+        <div class="main-text">
+            杀手&nbsp;<span id="endofkiller"></span>&nbsp;人&nbsp;&nbsp;&nbsp;平民&nbsp;<span id="endofpeople"></span>&nbsp;人
+        </div>
+    </div>
+    <div class="content">
+        <!-- <div class="content-box">
+            第<span></span>天<br>
+            黑夜:&nbsp;<span></span>号被杀死，真实身份是<span></span><br>
+            白天:&nbsp;<span></span>号被投死，真实身份是<span></span>
+        </div> -->
+        <div class="content-last">
+            第<span id="Realday"></span>天<br>
+            黑夜:&nbsp;<span id="Realnum"></span>号被杀死，真实身份是<span id="Realrole"></span>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="bottom-left">再来一局</div>
+        <div class="bottom-right">上传并分享</div>
+    </div>
+    
+
+    <script src="js/jQuery.js"></script>
+    <script src="js/state-machine.js"></script>
+    <script src="js/JSDemo2-8.js"></script>
+</body>
+</html>

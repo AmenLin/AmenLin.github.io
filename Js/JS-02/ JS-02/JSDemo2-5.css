@@ -1,0 +1,291 @@
+html {
+    font-size: 625%;
+}
+@media only screen and (max-width: 767px){
+    html {
+        font-size: 312%;
+    }
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #efefef;
+}
+
+
+.top {
+    width: 100%;
+    padding: .1rem .2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: .34rem;
+    color: #fff;
+    box-sizing: border-box;
+    border-bottom: 1px solid #4cc7e4;
+    background-color: #2abcdf;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+.back-arrow {
+    width: .26rem;
+    height: .41rem;
+    background-image: url(images/14.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.close {
+    width: .36rem;
+    height: .36rem;
+    background-image: url(images/04.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main {
+    width: 100%;
+    margin-top: 1rem;
+}
+.main-box {
+    width: 94%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+.main-top {
+    width: 100%;
+    padding: .12rem 0;
+    background-image: url(images/25.png);
+    background-repeat: no-repeat;
+    background-size: .3rem .17rem;
+    background-position: 98% center;
+    font-size: .3rem;
+    color: #2abcdf;
+    text-align: center;
+    background-color: #fff;
+    box-sizing: border-box;
+    border: 1px solid #d0d0d0;
+}
+.main-bottom {
+    width: 100%;
+    display: flex;
+    background-color: #fff;
+    box-sizing: border-box;
+    border: 1px solid #d0d0d0;
+    border-top: none;
+    position: relative;
+}
+.main-left {
+    width: .84rem;
+}
+.main-left:first-child {
+    box-sizing: border-box;
+    border-right: 1px solid #d0d0d0;
+}
+.main-right {
+    width: 100%;
+    margin: 0 0 .3rem .6rem;
+}
+.right-box {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: .3rem;
+    background-color: #24a6c5;
+    position: relative;
+}
+.right-arrow {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: .1rem .17rem .1rem 0;
+    border-color: transparent #24a6c5 transparent transparent;
+    position: absolute;
+    top: 38%;
+    left: -.16rem;
+}
+.right-text {
+    font-size: .3rem;
+    color: #fff;
+    text-align: center;
+    padding: .2rem 0;
+}
+.theMoom {
+    width: .5rem;
+    height: .5rem;
+    background-image: url(images/22.png);
+    background-repeat: no-repeat;
+    background-size: .29rem .35rem;
+    background-position: center center;
+    box-sizing: border-box;
+    border: 1px solid #cbcbcb;
+    border-radius: 50%;
+    position: absolute;
+    left: .4rem;
+    top: .46rem;
+    background-color: #fff;
+}
+.theSun {
+    width: .5rem;
+    height: .5rem;
+    background-image: url(images/23.png);
+    background-repeat: no-repeat;
+    background-size: .36rem .36rem;
+    background-position: center center;
+    box-sizing: border-box;
+    border: 1px solid #cbcbcb;
+    border-radius: 50%;
+    position: absolute;
+    left: .4rem;
+    top: 1.58rem;
+    background-color: #fff;
+}
+
+/* /////////////////////////////////////////// */
+/* 投票后往html文档添加的元素 */
+.main-box1 {
+    width: 94%;
+    margin: 0 auto;
+    margin-top: .1rem;
+    margin-bottom: .1rem;
+}
+.main-top1 {
+    width: 100%;
+    padding: .12rem 0;
+    background-image: url(images/25.png);
+    background-repeat: no-repeat;
+    background-size: .3rem .17rem;
+    background-position: 98% center;
+    font-size: .3rem;
+    color: #82af9a;
+    text-align: center;
+    background-color: #fff;
+    box-sizing: border-box;
+    border: 1px solid #d0d0d0;
+}
+.main-bottom1 {
+    width: 100%;
+    display: flex;
+    background-color: #fff;
+    box-sizing: border-box;
+    border: 1px solid #d0d0d0;
+    border-top: none;
+    position: relative;
+}
+.main-left1 {
+    width: .84rem;
+}
+.main-left1:first-child {
+    box-sizing: border-box;
+    border-right: 1px solid #d0d0d0;
+}
+.main-right1 {
+    width: 100%;
+    margin: 0 0 .3rem .6rem;
+}
+.right-box1 {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: .3rem;
+    background-color: #82af9a;
+    position: relative;
+}
+.right-arrow1 {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: .1rem .17rem .1rem 0;
+    border-color: transparent #82af9a transparent transparent;
+    position: absolute;
+    top: 38%;
+    left: -.16rem;
+}
+.right-text1 {
+    font-size: .3rem;
+    color: #fff;
+    text-align: center;
+    padding: .2rem 0;
+}
+.right-text11 {
+    font-size: .3rem;
+    color: #333;
+    text-align: center;
+    padding: .2rem 0;
+    background-color: #fff;
+}
+.right-text12 {
+    font-size: .3rem;
+    color: #333;
+    text-align: center;
+    padding: .2rem 0;
+    background-color: #fff;
+}
+.theMoom1 {
+    width: .5rem;
+    height: .5rem;
+    background-image: url(images/22.png);
+    background-repeat: no-repeat;
+    background-size: .29rem .35rem;
+    background-position: center center;
+    box-sizing: border-box;
+    border: 1px solid #cbcbcb;
+    border-radius: 50%;
+    position: absolute;
+    left: .4rem;
+    top: .46rem;
+    background-color: #fff;
+}
+.theSun1 {
+    width: .5rem;
+    height: .5rem;
+    background-image: url(images/23.png);
+    background-repeat: no-repeat;
+    background-size: .36rem .36rem;
+    background-position: center center;
+    box-sizing: border-box;
+    border: 1px solid #cbcbcb;
+    border-radius: 50%;
+    position: absolute;
+    left: .4rem;
+    top: 2.64rem;
+    background-color: #fff;
+}
+.right-box111 {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: .3rem;
+    background-color: #fff;
+    position: relative;
+    display: none;
+}
+/* ////////////////////////////////////////////// */
+
+
+.bottom {
+    width: 100%;
+    padding: .2rem 0;
+    margin-top: .8rem;
+    background-color: #8bd8f4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+}
+.bottom-left {
+    width: 40%;
+    font-size: .34rem;
+    color: #fff;
+    text-align: center;
+    background-color: #f9b247;
+    border-radius: .1rem;
+    padding: .2rem 0;
+}
+.bottom-right {
+    width: 40%;
+    font-size: .34rem;
+    color: #fff;
+    text-align: center;
+    background-color: #f9b247;
+    border-radius: .1rem;
+    padding: .2rem 0;
+}

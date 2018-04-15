@@ -1,0 +1,188 @@
+html {
+    font-size: 625%;
+}
+@media only screen and (max-width: 767px){
+    html {
+        font-size: 312%;
+    }
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #efefef;
+}
+
+
+.top {
+    width: auto;
+    padding: .1rem .2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2abcdf;
+    font-size: .34rem;
+    color: #fff;
+}
+.back-arrow {
+    width: .26rem;
+    height: .41rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.information {
+    width: .47rem;
+    height: .47rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main-top {
+    width: 100%;
+    margin-top: .2rem;
+}
+.left {
+    width: 100%;
+    height: 4.5rem;
+    background-color: #fff;
+    font-size: .34rem;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-top {
+    width: 100%;
+    height: 3.6rem;
+    background-color: #fafafa;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: .3rem;
+    color: gray;
+}
+.right-bottom {
+    width: 100%;
+    height: .9rem;
+    background-color: #fafafa;
+    box-sizing: border-box;
+    border-top: 1px solid #dcdcdc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .28rem;
+    color: #2abcdf;
+}
+.pen {
+    width: .14rem;
+    height: .14rem;
+    background-image: url(images/16.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: .1rem;
+}
+
+
+.main-mid {
+    width: auto;
+    padding: 0 .3rem .2rem .3rem;
+    margin-top: .1rem;
+    background-color: #fff;
+}
+.in {
+    width: 100%;
+    padding: .2rem 0;
+    border: none;
+    outline: none;
+    font-size: .28rem;
+    color: #333;
+    box-sizing: border-box;
+    border-bottom: 1px solid #dcdcdc;
+}
+.in::-webkit-input-placeholder {
+	color: #d6d6d6;
+}
+
+
+.main-bottom {
+    width: 100%;
+    margin-top: .1rem;
+    background-color: #fff;
+}
+.bottom-top {
+    width: auto;
+    margin: .2rem .2rem;
+    font-size: .28rem;
+    color: #434343;
+}
+.bottom-top-in {
+    width: .5rem;
+    border: none;
+    outline: none;
+    background-color: #f3f4f4;
+    text-indent: .1rem;
+    color: #f9b247;
+}
+.bottom-bottom {
+    width: auto;
+    margin: .2rem .2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottom-top-text {
+    font-size: .2rem;
+    color: #f9b247;
+}
+input[type=range]{
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -appearance: none; 
+    width: 80%;
+    height: .08rem;
+    background: orange;
+}
+input[type="range"]::-webkit-slider-thumb {
+    /*::-webkit-slider-thumb是代表给滑块的样式进行变更*/
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -appearance: none; /*//这三个是去掉滑块原有的默认样式，划重点！！*/
+    width: .6rem;
+    height:.36rem;
+    background: url("images/18.png");
+    background-size: cover;
+    /*//这几个是设置滑块的样式*/
+}
+.btn-sub{ /*这里是左边减按钮的css样式*/
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background: url("images/17.png");
+    background-size: 100%;
+    width: .28rem;
+    height: .28rem;
+}
+.btn-add{ /*这里是右边+按钮的css样式*/
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background: url("images/19.png") no-repeat;
+    background-size: 100%;
+    width: .28rem;
+    height: .28rem;
+}
+
+
+
+.bottom {
+    width: auto;
+    padding: .2rem;
+    margin-top: .2rem;
+    background-color: #f9b247;
+    font-size: .4rem;
+    color: #fff;
+    text-align: center;
+}
